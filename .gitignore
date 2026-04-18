@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+dist/
+*.min.css
+*.min.js
+
+# Swiper vendor files if installed locally via npm
+# (commit only if bundled manually)
+# assets/vendor/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# WordPress uploads (not theme files)
+uploads/
+
+# Local config
+.env
+wp-config-local.php
